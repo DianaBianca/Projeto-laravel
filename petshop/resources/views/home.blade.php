@@ -22,7 +22,7 @@
 	          </li>
 
             <li class="nav-item dropright">
-              <a  href="#"> <span class="fa  fa-user mr-3"></span> Controle Do Ponto </a>
+              <a  href="{{ url('/ponto')}}"> <span class="fa  fa-user mr-3"></span> Controle Do Ponto </a>
 	          </li>
 
             <li class="nav-item dropright">
@@ -31,21 +31,16 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Agandamento</a>
+                <a class="dropdown-item" href="#">Venda</a>
               </div>
             </li>
-
-	          <li class="nav-item dropright">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="fa fa-money mr-3"></span> Vendas
-              </a>
-	          </li>
 
 	          <li class="nav-item dropright">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="fa fa-cart-arrow-down mr-3"></span> Cadastro
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Cadastro Funcionário </a>
+                <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
                 <a class="dropdown-item" href="#">Cadastro Cliente</a>
                 <a class="dropdown-item" href="#">Cadastro Fornecedor</a>
               </div>
@@ -60,13 +55,18 @@
 
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5 pt-5">
-        <h2 class="mb-4">ONDE VAI FICAR O FORMULARIO</h2>
-        <p>FORMULARIO</p>
-        <p>FORMULARIO</p>
-        <p>FORMULARIO</p>
-        <p>FORMULARIO</p>
+        
+        
+
+        
       </div>
 		</div>
+
+
+
+
+
+
 
     <script src="{{ url('js/jquery.min.js')}}"></script>
     <script src="{{ url('js/popper.js')}}"></script>
