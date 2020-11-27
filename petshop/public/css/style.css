@@ -8341,3 +8341,16 @@ a[data-toggle="collapse"] {
   margin-left: 120px;
     width: 100%;
 }
+
+h11 {
+  color:red;
+}
+
+#logo {
+      width:50%;
+      height:50%;
+}
+
+.panel-heading{
+  font-size:150%;
+}

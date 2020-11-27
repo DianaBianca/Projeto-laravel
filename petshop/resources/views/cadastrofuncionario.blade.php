@@ -54,14 +54,19 @@
     	</nav>
 
       <!-- Page Content  -->
+
+      
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
-       
+         
      <div class="form-row tamanho">
+
+    
 
        <div class="col-md-12 ">
          <input type="text" class="redondo form-control" placeholder="Nome Completo" id="nome" />
        </div><br><br><br>
+
        
        <div class="form-group col-md-4">
          <select class="redondo form-control" id="ano">
@@ -83,25 +88,16 @@
 
      <div class="form-row tamanho">
     
-      <div class="form-group col-md-4">
+       <div class="form-group col-md-4">
          <input type="text" class="redondo form-control" placeholder="CPF" id="cpf" />
        </div>
 
-       <div class="form-group col-md-4 ">
-         <select class="redondo form-control" id="funcao">
-           <option value="">Função</option>
-           <option value="1">Atendente</option>
-           <option value="2">Vendedor(a)</option>
-           <option value="3">Tosador(a)</option>
-           <option value="4">Veterinário(a)</option>
-           <option value="5">Gerente</option>
-           <option value="6">Supervisor(a)</option>
-           <option value="7">Entregador(a)</option>
-         </select>
+       <div class="form-group col-md-4">
+         <input type="text" class="redondo form-control" placeholder="Telefone" id="telefone" />
        </div>
 
        <div class="col-md-4">
-         <input type="text" class="redondo form-control" placeholder="Valor" id="valor" />
+         <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
        </div>
      </div><br>
 
