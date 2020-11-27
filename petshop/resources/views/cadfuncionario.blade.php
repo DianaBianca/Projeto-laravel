@@ -18,7 +18,7 @@
 		  		<h1><a href="index.html" class="logo">Petshop <span>Petshop para doguinhos felizes</span></a></h1>
 	        <ul class="list-unstyled components mb-5">
 	          <li class="">
-	            <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+	            <a href="{{ url('/')}}"><span class="fa fa-home mr-3"></span> Home</a>
 	          </li>
 
             <li class="nav-item dropright">
@@ -40,9 +40,9 @@
                 <span class="fa fa-cart-arrow-down mr-3"></span> Cadastro
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item " href="#">Cadastro Funcionário </a>
-                <a class="dropdown-item" href="#">Cadastro Cliente</a>
-                <a class="dropdown-item" href="#">Cadastro Fornecedor</a>
+                <a class="dropdown-item active " href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
+                <a class="dropdown-item" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
+                <a class="dropdown-item" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
               </div>
 	          </li>
 

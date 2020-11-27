@@ -18,5 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/cadfunc', function () {
-    return view('cadastrofuncionario');
+    return view('cadfuncionario');
+});
+
+Route::get('/cadcli', function () {
+    return view('cadcliente');
+});
+
+Route::get('/cadfor', function () {
+    return view('cadfornecedor');
 });
