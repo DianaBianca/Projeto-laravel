@@ -20,18 +20,38 @@
 	          <li class="active">
 	            <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
 	          </li>
-	          <li>
-	              <a href="#"><span class="fa  fa-user mr-3"></span> Cadastro</a>
+
+            <li class="nav-item dropright">
+              <a  href="#"> <span class="fa  fa-user mr-3"></span> Controle Do Ponto </a>
 	          </li>
-	          <li>
-              <a href="#"><span class="fa fa-money mr-3"></span> Vendas</a>
+
+            <li class="nav-item dropright">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="fa fa-calendar mr-3"></span> Atendimento
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Agandamento</a>
+              </div>
+            </li>
+
+	          <li class="nav-item dropright">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="fa fa-money mr-3"></span> Vendas
+              </a>
 	          </li>
-	          <li>
-              <a href="#"><span class="fa fa-cart-arrow-down mr-3"></span> Compras</a>
+
+	          <li class="nav-item dropright">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="fa fa-cart-arrow-down mr-3"></span> Cadastro
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Cadastro Funcionário </a>
+                <a class="dropdown-item" href="#">Cadastro Cliente</a>
+                <a class="dropdown-item" href="#">Cadastro Fornecedor</a>
+              </div>
 	          </li>
-	          <li>
-              <a href="#"><span class="fa fa-calendar mr-3"></span> Agenda</a>
-	          </li>
+
+            
 	          
 	        </ul>
 
