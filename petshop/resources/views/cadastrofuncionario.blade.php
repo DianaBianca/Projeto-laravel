@@ -52,21 +52,23 @@
 
 	      </div>
     	</nav>
-
+  <form>
       <!-- Page Content  -->
 
       
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
-         
-     <div class="form-row tamanho">
 
-    
-
+       <legend class="tamanho" > Informações Pessoais </legend>
+       <div class="form-row tamanho">
+       
        <div class="col-md-12 ">
          <input type="text" class="redondo form-control" placeholder="Nome Completo" id="nome" />
        </div><br><br><br>
-
+       <div class="col-md-12 ">
+         <input type="email" class="redondo form-control" placeholder="Email" id="email" />
+       </div><br><br><br>
+     
        
        <div class="form-group col-md-4">
          <select class="redondo form-control" id="ano">
@@ -79,71 +81,100 @@
        <div class="form-group col-md-4">
          <input type="text" class="redondo form-control" placeholder="Data de Nascimento" id="dia" />
        </div>
+      </div><br>
 
-       <div class="form-group col-md-4">
-         <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
-       </div>
-     </div><br>
+      <div class="form-row tamanho">
+        
 
+        <div class="col-md-4 ">
+          <select class=" redondo form-control" id="estadocivil">
+            <option value="">Estado civíl</option>
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Casado(a)">Casado(a)</option>
+            <option value="Viuvo(a)">Viuvo(a)</option>
+            <option value="Divorciado(a)">Divorciado(a)</option>
+          </select>
+        </div>
 
-     <div class="form-row tamanho">
-    
-       <div class="form-group col-md-4">
-         <input type="text" class="redondo form-control" placeholder="CPF" id="cpf" />
-       </div>
+        <div class="form-group col-md-4 ">
+          <select class="redondo form-control" id="escolaridade">
+            <option value="">Escolaridade</option>
+            <option value="Analfabeto">Analfabeto</option>
+            <option value="Fundamaental Incompleto">Fundamaental Incompleto</option>
+            <option value="Fundamaental Completo">Fundamaental Completo</option>
+            <option value="Médio Incompleto">Médio Incompleto</option>
+            <option value="Médio Completo">Médio Completo</option>
+            <option value="Superior Incompleto">Superior Incompleto</option>
+            <option value="Superior Completo">Superior Completo</option>
+          </select>
+        </div>
 
-       <div class="form-group col-md-4">
-         <input type="text" class="redondo form-control" placeholder="Telefone" id="telefone" />
-       </div>
+        <div class="col-md-4">
+          <input type="number" class="redondo form-control" placeholder="Filhos" id="filihos" />
+        </div>
+      </div><br>
 
-       <div class="col-md-4">
-         <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
-       </div>
-     </div><br>
+      
+      <legend class="tamanho" > Documentos </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
+        </div> 
 
-     <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="CPF" id="cpf" />
+        </div>
+      </div><br>
+
+      
+      <legend class="tamanho" > Telefones Para Contato </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="Telefone" id="telefone" />
+        </div>
+
+        <div class="col-md-6">
+          <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
+        </div>
+      </div><br>
+
+      <legend class="tamanho" > Endereço </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Rua" id="rua" />
+        </div>
+
+        <div class="col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Bairro" id="bairro" />
+        </div>
+
+        <div class="col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Numero" id="numero" />
+        </div>
+      </div><br>
+
+      <div class="form-row tamanho">
+        <div class="form-group col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Cidade" id="cidade" />
+        </div>
+
+        <div class="col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Estado" id="estado" />
+        </div>
+
+        <div class="col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Cep" id="cep" />
+        </div>
+      </div><br>
+
       
 
-       <div class="col-md-4 ">
-         <select class=" redondo form-control" id="tipo">
-           <option value="">Tipo</option>
-           <option value="1">Cultura</option>
-           <option value="2">Livros</option>
-           <option value="3">Infraestrutura</option>
-           <option value="4">Visita técnica</option>
-           <option value="5">Transporte</option>
-           <option value="6">Jardinagem</option>
-           <option value="7">Bolsas</option>
-         </select>
-       </div>
-
-       <div class="form-group col-md-4 ">
-         <select class="redondo form-control" id="funcao">
-           <option value="">Função</option>
-           <option value="1">Atendente</option>
-           <option value="2">Vendedor(a)</option>
-           <option value="3">Tosador(a)</option>
-           <option value="4">Veterinário(a)</option>
-           <option value="5">Gerente</option>
-           <option value="6">Supervisor(a)</option>
-           <option value="7">Entregador(a)</option>
-         </select>
-       </div>
-
-       <div class="col-md-4">
-         <input type="text" class="redondo form-control" placeholder="Valor" id="valor" />
-       </div>
-     </div><br>
-
-     <div>
-     <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>
-     </div>
-   </div>
-        
-
-        
+      <div>
+      <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>
       </div>
-		</div>
+      </div>
+
+  </form>
 
 
 
