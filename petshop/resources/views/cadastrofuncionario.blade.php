@@ -51,11 +51,10 @@
 	        </ul>
 
 	      </div>
-    	</nav>
-  <form>
-      <!-- Page Content  -->
-
+      </nav>
       
+      
+  <form>
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
 
@@ -70,7 +69,7 @@
        </div><br><br><br>
      
        
-       <div class="form-group col-md-4">
+       <div class="form-group col-md-6">
          <select class="redondo form-control" id="ano">
            <option value="">Sexo</option>
            <option value="2018">Feminimo</option>
@@ -78,7 +77,7 @@
          </select>
        </div>
 
-       <div class="form-group col-md-4">
+       <div class="form-group col-md-6">
          <input type="text" class="redondo form-control" placeholder="Data de Nascimento" id="dia" />
        </div>
       </div><br>
