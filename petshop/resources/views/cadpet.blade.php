@@ -41,8 +41,8 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
-                <a class="dropdown-item active" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
-                <a class="dropdown-item" href="{{ url('/cadpet')}}">Cadastro Pet</a>
+                <a class="dropdown-item" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
+                <a class="dropdown-item active" href="{{ url('/cadpet')}}">Cadastro Pet</a>
                 <a class="dropdown-item" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
               </div>
 	          </li>
@@ -59,70 +59,38 @@
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
 
-       <legend class="tamanho" > Informações Pessoais Do Dono</legend>
+       <legend class="tamanho" > Informações Pessoais Do Pet</legend>
        <div class="form-row tamanho">
        
        <div class="col-md-6 ">
          <input type="text" class="redondo form-control" placeholder="Nome Completo" id="nome" />
        </div>
        <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
+         <input type="text" class="redondo form-control" placeholder="RG do Dono" id="rgdono" />
        </div> <br><br><br>
      
        
        <div class="form-group col-md-6">
          <select class="redondo form-control" id="ano">
            <option value="">Sexo</option>
-           <option value="Feminino">Feminimo</option>
-           <option value="Masculino">Masculino</option>
+           <option value="Feminino">Fêmea</option>
+           <option value="Masculino">Macho</option>
          </select>
        </div>
 
        <div class="form-group col-md-6">
-         <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
+       <select class="redondo form-control" id="especie">
+           <option value="">Porte</option>
+           <option value="Pequeno">Pequeno</option>
+           <option value="Médio">Médio</option>
+           <option value="Grande">Grande</option>
+         </select>
        </div><br><br><br>
 
        <div class="col-md-12" >
-          <input type="email" class="redondo form-control" placeholder="E-Mail" id="email" />
+          <input type="text" class="redondo form-control" placeholder="Observações sobre o pet" id="obspet" />
       </div>
       </div><br>
-
-      <legend class="tamanho" > Endereço </legend>
-      <div class="form-row tamanho">
-        <div class="form-group col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Rua" id="rua" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Bairro" id="bairro" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Numero" id="numero" />
-        </div>
-      </div><br>
-
-      <div class="form-row tamanho">
-        <div class="form-group col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Cidade" id="cidade" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Estado" id="estado" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Cep" id="cep" />
-        </div><br>
-
-      </div><br>
-      
-      <div class="form-row tamanho">
-        <div class="col-md-12">
-          <input type="text" class="redondo form-control" placeholder="Observações" id="obs" />
-        </div>
-      </div><br>
-
 
       <div>
         <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>

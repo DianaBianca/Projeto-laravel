@@ -40,9 +40,10 @@
                 <span class="fa fa-cart-arrow-down mr-3"></span> Cadastro
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Cadastro Funcionário </a>
-                <a class="dropdown-item" href="#">Cadastro Cliente</a>
-                <a class="dropdown-item" href="#">Cadastro Fornecedor</a>
+                <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
+                <a class="dropdown-item active" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
+                <a class="dropdown-item" href="{{ url('/cadpet')}}">Cadastro Pet</a>
+                <a class="dropdown-item" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
               </div>
 	          </li>
 

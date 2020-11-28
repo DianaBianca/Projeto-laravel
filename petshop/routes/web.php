@@ -25,6 +25,10 @@ Route::get('/cadcli', function () {
     return view('cadcliente');
 });
 
+Route::get('/cadpet', function () {
+    return view('cadpet');
+});
+
 Route::get('/cadfor', function () {
     return view('cadfornecedor');
 });

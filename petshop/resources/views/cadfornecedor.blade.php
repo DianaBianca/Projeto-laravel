@@ -41,9 +41,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
-                <a class="dropdown-item active" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
+                <a class="dropdown-item" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
                 <a class="dropdown-item" href="{{ url('/cadpet')}}">Cadastro Pet</a>
-                <a class="dropdown-item" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
+                <a class="dropdown-item active" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
               </div>
 	          </li>
 
@@ -59,32 +59,64 @@
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
 
-       <legend class="tamanho" > Informações Pessoais Do Dono</legend>
+       <legend class="tamanho" > Informações da Empresa </legend>
        <div class="form-row tamanho">
        
        <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="Nome Completo" id="nome" />
-       </div>
+         <input type="text" class="redondo form-control" placeholder="Razão Social" id="razaosocial" />
+       </div><br><br><br>
        <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
-       </div> <br><br><br>
+         <input type="text" class="redondo form-control" placeholder="Nome Fantasia" id="nomefantasia" />
+       </div><br><br><br>
      
+       <div class="col-md-6 ">
+         <input type="text" class="redondo form-control" placeholder="CPF/CNPJ" id="cnpj" />
+       </div><br><br><br>
+       <div class="col-md-6 ">
+       <select class="redondo form-control" id="pfpj">
+           <option value="">Pessoa</option>
+           <option value="2018">Fisica</option>
+           <option value="2019">Juridica</option>
+         </select>
+       </div><br><br><br>
        
        <div class="form-group col-md-6">
-         <select class="redondo form-control" id="ano">
-           <option value="">Sexo</option>
-           <option value="Feminino">Feminimo</option>
-           <option value="Masculino">Masculino</option>
-         </select>
+       <input type="text" class="redondo form-control" placeholder="Telefone 1" id="fone1" />
        </div>
 
        <div class="form-group col-md-6">
-         <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
-       </div><br><br><br>
+         <input type="text" class="redondo form-control" placeholder="Telefone 2" id="fone 2" />
+       </div>
+      </div><br>
 
-       <div class="col-md-12" >
-          <input type="email" class="redondo form-control" placeholder="E-Mail" id="email" />
-      </div>
+      <div class="form-row tamanho">
+        <div class="col-md-12 ">
+        <input type="text" class="redondo form-control" placeholder="E-mail para contato" id="email" />
+        </div>
+      </div><br>
+
+      
+      <legend class="tamanho" > Documentos </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
+        </div> 
+
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="CPF" id="cpf" />
+        </div>
+      </div><br>
+
+      
+      <legend class="tamanho" > Telefones Para Contato </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+          <input type="text" class="redondo form-control" placeholder="Telefone" id="telefone" />
+        </div>
+
+        <div class="col-md-6">
+          <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
+        </div>
       </div><br>
 
       <legend class="tamanho" > Endereço </legend>
@@ -113,23 +145,22 @@
 
         <div class="col-md-4">
           <input type="text" class="redondo form-control" placeholder="Cep" id="cep" />
-        </div><br>
-
-      </div><br>
-      
-      <div class="form-row tamanho">
-        <div class="col-md-12">
-          <input type="text" class="redondo form-control" placeholder="Observações" id="obs" />
         </div>
       </div><br>
 
+      
 
       <div>
-        <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>
+      <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>
       </div>
       </div>
 
   </form>
+
+
+
+
+
 
 
     <script src="{{ url('js/jquery.min.js')}}"></script>
