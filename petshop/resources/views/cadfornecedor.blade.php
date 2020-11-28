@@ -95,30 +95,6 @@
         </div>
       </div><br>
 
-      
-      <legend class="tamanho" > Documentos </legend>
-      <div class="form-row tamanho">
-        <div class="form-group col-md-6">
-          <input type="text" class="redondo form-control" placeholder="RG" id="rg" />
-        </div> 
-
-        <div class="form-group col-md-6">
-          <input type="text" class="redondo form-control" placeholder="CPF" id="cpf" />
-        </div>
-      </div><br>
-
-      
-      <legend class="tamanho" > Telefones Para Contato </legend>
-      <div class="form-row tamanho">
-        <div class="form-group col-md-6">
-          <input type="text" class="redondo form-control" placeholder="Telefone" id="telefone" />
-        </div>
-
-        <div class="col-md-6">
-          <input type="text" class="redondo form-control" placeholder="Celular" id="celular" />
-        </div>
-      </div><br>
-
       <legend class="tamanho" > Endereço </legend>
       <div class="form-row tamanho">
         <div class="form-group col-md-4">
@@ -146,6 +122,22 @@
         <div class="col-md-4">
           <input type="text" class="redondo form-control" placeholder="Cep" id="cep" />
         </div>
+      </div><br>
+      
+      <legend class="tamanho" > Serviços Prestados </legend>
+      <div class="form-row tamanho">
+        <div class="form-group col-md-6">
+            <select class="redondo form-control" id="ramo">
+                <option value="">Ramo</option>
+                <option value="acessórios">Acessórios</option>
+                <option value="produtos">Produtos de banho e tosa</option>
+            </select>
+        </div>
+
+        <div class="col-md-6">
+          <input type="text" class="redondo form-control" placeholder="Observaçao" id="obs" />
+        </div>
+
       </div><br>
 
       
