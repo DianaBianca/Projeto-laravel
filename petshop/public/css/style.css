@@ -1327,6 +1327,7 @@ pre {
     margin-left: 91.66667%; } }
 
 .table {
+  padding-right: 0px !important;
   width: 100%;
   margin-bottom: 1rem;
   color: #212529; }
@@ -8353,4 +8354,8 @@ h11 {
 
 .panel-heading{
   font-size:150%;
+}
+
+.botao{
+  margin-left: -100px ;
 }

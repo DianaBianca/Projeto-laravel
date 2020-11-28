@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/ponto', function () {
+    return view('ponto');
+});
+
 Route::get('/cadfunc', function () {
     return view('cadfuncionario');
 });

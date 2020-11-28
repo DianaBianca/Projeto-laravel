@@ -140,8 +140,6 @@
 
       </div><br>
 
-      
-
       <div>
       <button class="redondo btn btn-info btn-block " type="">Cadastrar</button>
       </div>

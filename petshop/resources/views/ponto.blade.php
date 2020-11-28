@@ -55,11 +55,52 @@
     	</nav>
 
         <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
+      <div id="content" class="p-2 p-md-6 pt-5">
         
-        
+      <div class="form-row tamanho">
+          <div class="col-md-3">
+            <input type="text" class="redondo form-control" placeholder="Saída" id="saida" />
+          </div>
 
-        
+          <div class="col-md-3">
+            <input type="text" class="redondo form-control" placeholder="Entrada" id="entrada" />
+          </div>
+
+          <div class="col-md-3">
+            <input type="date" class="redondo form-control" placeholder="Dia" id="data" />
+          </div>
+
+          <div class="col-md-3 botao">
+            <button class="redondo btn btn-info btn-block " type="">OK</button>
+          </div>
+          
+      </div><br>
+
+      <div class="row tabela ">
+        <div class="col-md-12 tamanho">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Entrada</th>
+                <th>Saída</th>
+                <th>Funcionário</th>
+              </tr>
+            </thead>
+      
+            <tbody>
+              <tr>
+                <td>20-10-2020</td>
+                <td>12:20</td>
+                <td>19:00</td>
+                <td>Mayara Fernandes Rdrigues Machado</td>
+              </tr>
+            </tbody>
+      
+          </table>
+        </div>
+      </div>
+
       </div>
 		</div>
 
