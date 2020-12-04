@@ -43,7 +43,7 @@
                 <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
                 <a class="dropdown-item" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
                 <a class="dropdown-item" href="{{ url('/cadpet')}}">Cadastro Pet</a>
-                <a class="dropdown-item active" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
+                <a class="dropdown-item active" href="{{ url('/cadpro')}}">Cadastro Produto</a>
               </div>
 	          </li>
 
@@ -59,83 +59,48 @@
       <div id="content" class="p-6 p-md-12 pt-5">
        <div class="container ">
 
-       <legend class="tamanho" > Informações da Empresa </legend>
+       <legend class="tamanho" > Informações da Produto </legend>
        <div class="form-row tamanho">
-       
+      
+
        <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="Razão Social" id="razaosocial" />
-       </div><br><br><br>
-       <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="Nome Fantasia" id="nomefantasia" />
+         <input type="text" class="redondo form-control" placeholder="Nome " id="nome" />
        </div><br><br><br>
      
-       <div class="col-md-6 ">
-         <input type="text" class="redondo form-control" placeholder="CPF/CNPJ" id="cnpj" />
-       </div><br><br><br>
-       <div class="col-md-6 ">
-       <select class="redondo form-control" id="pfpj">
-           <option value="">Pessoa</option>
-           <option value="2018">Fisica</option>
-           <option value="2019">Juridica</option>
-         </select>
-       </div><br><br><br>
        
-       <div class="form-group col-md-6">
-       <input type="text" class="redondo form-control" placeholder="Telefone 1" id="fone1" />
-       </div>
+       <div class="col-md-6 ">
+       <select class="redondo form-control" id="tipo">
+           <option value="">Tipo</option>
+           <option value="ração">Ração</option>
+           <option value="vestuario">Vestuário</option>
+           <option value="acessorios">Acessórios</option>
+         </select>
+       </div><br>
+       
+       
 
-       <div class="form-group col-md-6">
-         <input type="text" class="redondo form-control" placeholder="Telefone 2" id="fone 2" />
-       </div>
-      </div><br>
-
-      <div class="form-row tamanho">
-        <div class="col-md-12 ">
-        <input type="text" class="redondo form-control" placeholder="E-mail para contato" id="email" />
-        </div>
-      </div><br>
-
-      <legend class="tamanho" > Endereço </legend>
-      <div class="form-row tamanho">
-        <div class="form-group col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Rua" id="rua" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Bairro" id="bairro" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Numero" id="numero" />
-        </div>
-      </div><br>
+      </div>
 
       <div class="form-row tamanho">
-        <div class="form-group col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Cidade" id="cidade" />
+        <div class="col-md-6 ">
+        <input type="text" class="redondo form-control" placeholder="Descrição do produto" id="descrição" />
         </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Estado" id="estado" />
-        </div>
-
-        <div class="col-md-4">
-          <input type="text" class="redondo form-control" placeholder="Cep" id="cep" />
-        </div>
-      </div><br>
-      
-      <legend class="tamanho" > Serviços Prestados </legend>
-      <div class="form-row tamanho">
-        <div class="form-group col-md-6">
-            <select class="redondo form-control" id="ramo">
-                <option value="">Ramo</option>
-                <option value="acessórios">Acessórios</option>
-                <option value="produtos">Produtos de banho e tosa</option>
-            </select>
-        </div>
-
         <div class="col-md-6">
-          <input type="text" class="redondo form-control" placeholder="Observaçao" id="obs" />
+        <input type="date" class="redondo form-control" placeholder="Data de validade" id="validade" />
+        </div>
+      </div><br>
+
+      <div class="form-row tamanho">
+        <div class="form-group col-md-4">
+          <input type="text" class="redondo form-control" placeholder="quantidade" id="quantidade" />
+        </div>
+
+        <div class="col-md-4">
+          <input type="text" class="redondo form-control" placeholder="Dias de garantia" id="garantia" />
+        </div>
+
+        <div class="col-md-4">
+        <input type="text" class="redondo form-control" placeholder="Valor unitário" id="valor" />
         </div>
 
       </div><br>

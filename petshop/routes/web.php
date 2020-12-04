@@ -33,6 +33,6 @@ Route::get('/cadpet', function () {
     return view('cadpet');
 });
 
-Route::get('/cadfor', function () {
-    return view('cadfornecedor');
+Route::get('/cadpro', function () {
+    return view('cadproduto');
 });

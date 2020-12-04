@@ -43,7 +43,8 @@
                 <a class="dropdown-item" href="{{ url('/cadfunc')}}">Cadastro Funcionário </a>
                 <a class="dropdown-item" href="{{ url('/cadcli')}}">Cadastro Cliente</a>
                 <a class="dropdown-item active" href="{{ url('/cadpet')}}">Cadastro Pet</a>
-                <a class="dropdown-item" href="{{ url('/cadfor')}}">Cadastro Fornecedor</a>
+                <a class="dropdown-item active" href="{{ url('/cadpro')}}">Cadastro Produto</a>
+                
               </div>
 	          </li>
 
